@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#body {
+    background: url("./img/1.jpg");
+    background-size: cover;
+    background-repeat: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.account-wrapper {
+    /* background-color: rgb(17, 17, 53); */
+    background-color: white;
+    width: 35%;
+    border-radius: 10px;
+    opacity: 95%;
+    padding: 20px;
+}
+.header{
+    text-align: center;
+    padding-top: 50px;
+}
+#accountform {
+    padding-top: 50px;
+    text-align: center;
+}
+
+#accountform .account-input {
+    height: 50px;
+    width: 60%;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: transparent;
+    border: 2px solid red;
+    transition: 300ms;
+    outline: none;
+}
+
+#accountform .account-input:hover {
+    background-color: rgb(33, 11, 155);
+    border-color: rgb(33, 11, 155);
+}
+#accountform .account-input:focus {
+    border-color: rgb(33, 11, 155);
+    color: black;
+
+}
+
+#accountform .account-input::placeholder {
+    text-align: center;
+    color: black;
+}
+
+#accountform #submit-btn {
+    height: 55px;
+    width: 60%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color:rgb(33, 11, 155);
+    color: white;
+    transition: 500ms;
+    border: none;
+    font-size: 18px;
+}
+
+#accountform #submit-btn:hover {
+    cursor: pointer;
+    background-color: rgb(255, 87, 87);
+}
+
+#accountform a {
+    margin-top: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+#accountform p {
+    padding-top: 15px;
+    font-size: 15px;
+    color: red;
+}
+
