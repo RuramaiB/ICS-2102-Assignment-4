@@ -7,15 +7,17 @@ $Email =  $_REQUEST['email'];
 $Enquiry = $_REQUEST['enquiry']; 
 // Performing insert query execution
 
-$sql = "INSERT INTO enquiries VALUES ('$Name',
-    '$Number','$Email','$Enquiry')";
-if ($conn->query($sql) === TRUE) {
-  header("location: enquiries.php");
-  echo '<script>alert("Your enquiry has been sent.")</script>'; 
+$sql = "SELECT * FROM enquries where usernames = '$Name'";
+$result = $conn->query($sql);
 
-} else {
-  echo "Error: " . $sql . "<br>" . $conn->error;
-}
+  $sql = "INSERT INTO enquiries VALUES ('$Name',
+      '$Number','$Email','$Enquiry', '')";
+  if ($conn->query($sql) === TRUE) {
+    // header("location: enquiries.php");
+    echo '<script>alert("Your enquiry has been sent.")</script>'; 
 
+  } else {
+    echo "Error: " . $sql . "<br>" . $conn->error;
+  }
 $conn->close();
 ?>

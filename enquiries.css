@@ -1,0 +1,98 @@
+#enq-body{
+    background-image: url("img/1.jpg");
+    background-size: cover;  
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+   }
+   
+   .enq{
+     margin-left: 38%;
+     width: 25%;
+     background-color: white;
+     margin-top: 25vh;
+    border-radius: 20px;
+     padding: 15px;
+     opacity: 90%;
+     height: 55vh;
+   }
+#enq-heading{
+    margin-left: 630px;
+     justify-content: center;
+     text-align: center;
+     margin-top: 200px;
+     font-size: 30px;
+     text-transform: uppercase;
+     color: white;
+   }
+   .enq input{
+     border-color: black;
+     align-items: center;
+     width: 300px;
+     height: 30px;
+     border-radius: 10px;
+     margin: 5px;
+     color: black;
+     text-align: center;
+   }
+   .enq input::placeholder{
+     text-align: center;
+     color: black;
+   }
+   .enq textarea{
+     color: black;
+     border-color: black;
+     border-radius: 10px;
+     margin: 5px;
+     align-items: center;
+     width: 305px;
+     height: 100px;
+   }
+   .enq button{
+     border-radius: 10px;
+     width: 300px;
+     height: 40px;
+     margin-left: 15px;
+     margin-top: 10px;
+     background-color: rgb(29, 99, 250);
+   }
+   .enq button:hover{
+     background-color: rgb(49, 240, 24);
+   }
+   .enq a{
+     margin-left: 100px;
+     margin-top: 10px;
+     text-decoration: none;
+     color: black;
+   }
+
+   /* check repsonses */
+   .response{
+    margin-left: 38%;
+    width: 25%;
+    background-color: black;
+    margin-top: 25vh;
+    border-radius: 20px;
+    padding: 10px;
+    opacity: 90%;
+    height: 35vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+   }
+   .response #response-name{
+    margin-top: 30px;
+    height: 30px;
+    background-color: transparent;
+    border-bottom-color: black;
+    margin-bottom: 20px;
+   }
+ #response-submit{
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+ }
+   
